@@ -67,4 +67,5 @@ dw = max([dw1, dw2]);
 clc; fprintf('Experimental gravitational constant is G = %e m^3 kg^(-1) s^(-2); \nIt is %3.2f %% different from the real value. \n', G, g);
 fprintf('Fractional uncertainty of experimental value is %0.3f. \n', G_error);
 
+clf; close all;
 save('parameters.mat');
